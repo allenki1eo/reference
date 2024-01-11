@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Light gray background */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+.instructions {
+    text-align: center;
+    color: #555;
+}
+/* General styling for sections */
+.search-container,
+.website-reference-container {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Book results container */
+#bookResultsContainer {
+    margin-top: 15px;
+}
+
+/* Input and button styling */
+input,
+button {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Additional styling for website reference labels */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 40px; /* Increased margin for better separation */
+    padding: 20px;
+    background-color: #333; /* Dark background for the footer */
+    color: #fff; /* White text color */
+    text-align: center;
+}
+
+

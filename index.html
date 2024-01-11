@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Assignment Reference Tool</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Assignment Reference Tool</h1>
+        
+        <!-- Instructions -->
+        <p class="instructions">
+            Welcome to the Assignment Reference Tool! Enter a book heading to search for
+             references or provide details for a website reference.
+        </p>
+
+        <!-- Book Search Section -->
+        <div class="search-container">
+            <h2>Search for Books</h2>
+            <input type="text" id="bookHeading" placeholder="Enter book heading">
+            <button onclick="searchBooks()">Search</button>
+            <div id="bookResultsContainer"></div>
+        </div>
+
+        <!-- Website Reference Section -->
+        <div class="website-reference-container">
+            <h2>Reference a Website</h2>
+            <label for="websiteTitle">Title:</label>
+            <input type="text" id="websiteTitle" placeholder="Enter website title">
+            <label for="websiteURL">URL:</label>
+            <input type="text" id="websiteURL" placeholder="Enter website URL">
+            <button onclick="referenceWebsite()">Reference</button>
+            <div id="websiteReferenceContainer"></div>
+        </div>
+
+        <!-- Copyright Footer -->
+        <footer>
+            <p>&copy; 2024 Hanson Technologies. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
